@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Packet Catcher</title>
+    <meta name="description" content="Catch the 200s, dodge the 500s. A tiny server-themed arcade game." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%230b1320%27/%3E%3Crect x=%274%27 y=%2718%27 width=%2724%27 height=%2710%27 rx=%273%27 fill=%27%2336bcf7%27/%3E%3Crect x=%2711%27 y=%274%27 width=%2710%27 height=%2710%27 rx=%273%27 fill=%27%233ddc84%27/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Packet Catcher</h1>
+      <canvas id="game" width="480" height="640" aria-label="Packet Catcher game board"></canvas>
+      <p class="help">
+        <kbd>←</kbd> <kbd>→</kbd> or <kbd>A</kbd> <kbd>D</kbd> to move, <kbd>P</kbd> to pause. On a phone,
+        drag your finger.
+      </p>
+      <p class="legend">
+        <span class="g">200</span> +10 &nbsp; <span class="b">201</span> +25 &nbsp;
+        <span class="y">404</span> −5 &nbsp; <span class="r">500</span> lose a life
+      </p>
+    </main>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>

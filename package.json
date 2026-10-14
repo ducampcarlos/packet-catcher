@@ -1,0 +1,13 @@
+{
+  "name": "packet-catcher",
+  "version": "1.0.0",
+  "description": "A tiny browser game: catch 200s, dodge 500s.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "start": "python3 -m http.server 8000"
+  },
+  "license": "MIT",
+  "author": "Carlos Ducamp",
+  "repository": { "type": "git", "url": "git+https://github.com/ducampcarlos/packet-catcher.git" }
+}
